@@ -1,0 +1,16 @@
+h1 {
+  color: red;
+}
+h1 span {
+  color: blue;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+h1 span:hover {
+  color: red;
+}
+@media screen and (max-width: 1200px) {
+  h1 span {
+    color: green;
+  }
+}
